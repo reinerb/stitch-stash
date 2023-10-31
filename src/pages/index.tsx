@@ -1,9 +1,9 @@
-import RootLayout from "@/utils/layouts/RootLayout";
+import Dashboard from '@/utils/layouts/Dashboard';
 
 export default function Home() {
   return (
-    <RootLayout title="Stitch Stash">
+    <Dashboard title="Stitch Stash">
       <h1>Hello world!</h1>
-    </RootLayout>
+    </Dashboard>
   );
 }
